@@ -13,4 +13,4 @@ int main(void)
 {
 	printf("with proper grammar, but the outcome is art,\n");
 	return (0);
-};
+}
