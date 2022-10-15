@@ -1,27 +1,19 @@
-#include <stdlib.h>
+include <stdio.h>
 
-#include <time.h>
-
-/* more headers goes there */
-
-
-
-/* betty style doc for function main goes there */
-
+/**
+ *  * main - Prints the alphabet.
+ *   *
+ *    * Return: Always 0 (Success)
+ *     */
 int main(void)
-
 {
+		char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+			int i;
 
-		int n;
-
-
-
-			srand(time(0));
-
-				n = rand() - RAND_MAX / 2;
-
-					/* your code goes there */
-
-					return (0);
-
+				for (i = 0; i < 52; i++)
+						{
+									putchar(alp[i]);
+										}
+					putchar('\n');
+						return (0);
 }
