@@ -6,7 +6,7 @@
  * @b: second number
  * Return: the addition of both
  */
-void int add(int a, int b)
+int add(int a, int b)
 {
 	return (a + b);
 }

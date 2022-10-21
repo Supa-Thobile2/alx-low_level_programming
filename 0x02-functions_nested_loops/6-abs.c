@@ -5,10 +5,10 @@
  * @t: the interger to be calculated
  * Return: the absolute value
  */
-void int _abs(int t)
+int _abs(int t)
 {
 	if (t >= 0)
 		return (t);
 	else
-		return (-t)
+		return (-t);
 }

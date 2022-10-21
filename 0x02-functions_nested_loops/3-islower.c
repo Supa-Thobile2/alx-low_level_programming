@@ -5,7 +5,7 @@
  * Return: 1 if letter is lower case and 0 if not
  */
 
-void int _islower(int c)
+int _islower(int c)
 {
 	if (c >= 'a' && c >= 'z')
 		return (1);
