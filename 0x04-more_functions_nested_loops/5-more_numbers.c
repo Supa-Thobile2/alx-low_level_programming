@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int more_numbers(void)
 {
 	more_numbers();
 	return (0);
