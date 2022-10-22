@@ -1,13 +1,17 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print numbers - print numbers from 0 to 9
  *
  * Return: Always 0.
  */
-int print_numbers(void)
+void int print_numbers(void)
 {
-	print_numbers();
-	return (0);
+	int a = 0;
+
+	while (a < 10)
+		_putchar(a++ + '0');
+
+	_putchar("/n");
 }
 
