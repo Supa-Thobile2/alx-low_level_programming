@@ -1,11 +1,11 @@
 #include "main.h"
-i
+
 /**
  * main - check the code.
  *
  * Return: Always 0.
  */
-int main(void)
+void int main(void)
 {
 	int r;
 
