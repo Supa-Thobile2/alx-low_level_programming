@@ -14,5 +14,5 @@ int _isdigit(int c)
 	else
 		y = 0
 
-	return (c);
+	return (y);
 }
