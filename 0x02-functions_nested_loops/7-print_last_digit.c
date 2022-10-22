@@ -4,7 +4,7 @@
  *@n : the number
  *Return: last digit
  */
-int int_last_digit(int n)
+void int int_last_digit(int n)
 {
 	int ld = n % 10;
 
