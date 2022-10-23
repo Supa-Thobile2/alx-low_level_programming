@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * print_diagonal-prints numbers diagonal
+ *@n: number to be printed
  * Return: Always 0.
  */
-int print_diagonal(void)
+int print_diagonal(int n)
 {
 	print_diagonal(0);
 	print_diagonal(2);
