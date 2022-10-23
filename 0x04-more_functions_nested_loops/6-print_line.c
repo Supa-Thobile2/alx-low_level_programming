@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int print_line(void)
+int print_line(int n)
 {
 	print_line(0);
 	print_line(2);
