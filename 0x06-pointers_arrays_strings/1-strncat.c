@@ -1,13 +1,26 @@
 #include "main.h"
-/**
-* reset_to_98 - ur comment
-* @n: pointer
-* Return: void
-*/
-char *_strncat(char *dest, char *src, int n)
-{
-	int x, y;
 
-	for (x = 0; dest[x] != '\0'; x++)
+/**
+* _strcat - a function that concatenates two strings using atmos
+*
+* @dest: pointer to destination input
+* @src: pointer to source input
+* @n: first number of bytes appended to @dest
+*
+* Return: pointer resulting in string @dest
+*/
+char *_strcat(char *dest, char *src)
+{
+        int index = 0, dest_len = 0;
+
+        while (dest[index++])
+                dest_len++;
+
+        for (index = 0; src[index] && index < n; index++)
+                dest[dest_len++] = src[index];
+
+        return (dest);
+
 }
+
 
