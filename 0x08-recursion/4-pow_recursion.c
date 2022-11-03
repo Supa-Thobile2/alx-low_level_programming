@@ -1,28 +1,18 @@
 #include "main.h"
 /**
- * _sqrt_recursion - return the natural square root of a number
- * @n: int number
- * Return: if no natural square root, return -1 else square root
+ * _pow_recursion - return the value of x raised to power y
+ * @x: integer
+ * @y: number to which x will be powered to
+ * Return: x to power y
  */
-int _sqrt_recursion(int n)
+int _pow_recursion(int x, int y)
 {
-	return (halp(n, 1));
-}
-/**
- * halp - function to solve sqrt_recursion
- * @c: number to determine if squarerrot
- * @i: Incrementer to compare against c
- * Return: square root if natural or -1 i none found
- */
-int halp(int c, int i)
-{
-	int square;
-
-	square = i * i;
-	if (square == c)
-		return (i);
-	else if (square < c)
-		return (halp(c, i + 1));
-	else
+	if (y < 0)
 		return (-1);
+	else if (y == 0)
+		return (1);
+	else if (y == 1)
+		return (x);
+
+	return (x * _pow_recursion(x, y - 1));
 }
