@@ -17,6 +17,7 @@ int _sqrt_recursion(int n)
 int halp(int c, int i)
 {
 	int square;
+
 	square = i * i;
 	if (square == c)
 		return (i);
