@@ -14,5 +14,9 @@ int halp(int c, int i);
 int prime(int n, int d);
 int my_sqrt(int x, int i);
 int is_prime_number(int n);
+int palind(char *s, int l);
+int get_length(char *s);
+int is_palindrome(char *s);
+int wildcmp(char *s1, char *s2);
 
 #endif
