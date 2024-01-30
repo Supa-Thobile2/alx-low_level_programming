@@ -3,34 +3,20 @@
 /**
  * main - Prints numbers between 00 to 89.
  *
-i * Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i, e;
+	int i = '0';
 
-	i = 48;
-	e = 48;
-
-	while (e < 58)
+	while (i <= '9')
 	{
-		i = 48;
-		while (i < 58)
-		{
-			if (e != i && e < i)
-			{
-				putchar(e);
-				putchar(i);
-				if (i == 57 && e == 56)
-				{
-					break;
-				}
-				putchar(',');
-			}
-			i++;
+		if(i != '9'){
+			putchar(' , ');
+			putchar(' ');
 		}
-		e++;
 	}
+
 	putchar('\n');
 	return (0);
 }
