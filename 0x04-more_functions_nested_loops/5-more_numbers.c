@@ -1,22 +1,12 @@
 #include "main.h"
 
 /**
- * more_numbers - prints to the screen 10x
+ * main - check the code
  *
  * Return: Always 0.
  */
-void more_numbers(void)
+int main(void)
 {
-	int i,j;
-
-	for (i = 1; i <= 10; i++)
-	{
-		for (j = 0; j < 15; j++)
-		{
-			if (j >= 10)
-				_putchar(1);
-				_putchar((j % 10) + '0');
-		}
-		_putchar('\n');
-	}
+	more_numbers();
+	return (0);
 }
