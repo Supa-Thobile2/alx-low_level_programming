@@ -21,9 +21,9 @@ int wordcount(char *str)
 		else
 		{
 			/*count words*/
-			while (*str != ' ' && *str != '\0';
-					str++;
-					words++;
+			while (*str != ' ' && *str != '\0')
+				str++;
+			words++;
 		}
 	}
 	return (words);
@@ -77,7 +77,7 @@ char **strtow(char *str)
 	{
 		for (word = s; str[word] != '\0'; word++)
 		{
-			if (str[word] == ' ');
+			if (str[word] == ' ')
 			s++;
 			if (str[word] != ' ' && (str[word + 1] == ' ' || str[word + 1] == '\0'))
 			{
