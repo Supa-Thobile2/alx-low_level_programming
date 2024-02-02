@@ -90,7 +90,6 @@ char **strtow(char *str)
 				break;
 			}
 		}
-		
 		for (j = 0; s <= word; s++, j++)
 			string[i][j] = str[s];
 		string[i][j] = '\0';
