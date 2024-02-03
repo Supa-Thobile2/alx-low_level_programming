@@ -4,7 +4,7 @@
 
 /**
  * main - check the code for ALX School students.
- *
+ *@_strdup : function to check string
  * Return: Always 0.
  */
 int main(void)
