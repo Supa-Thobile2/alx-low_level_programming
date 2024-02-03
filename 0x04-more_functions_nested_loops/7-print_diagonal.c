@@ -5,7 +5,7 @@
  *@n: number to be printed
  * Return: Always 0.
  */
-int print_diagonal(int n)
+int print_diagonal(void)
 {
 	print_diagonal(0);
 	print_diagonal(2);
