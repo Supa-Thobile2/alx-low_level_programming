@@ -1,12 +1,21 @@
 #include "main.h"
 
 /**
- * main - check the code
+ *more_numbers - prints more numbers
  *
- * Return: Always 0.
+ * Return: always 0
  */
-int main(void)
+void more_numbers(void)
 {
-	more_numbers();
-    r1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111	1																																			1eturn (0);
+	int i, j;
+
+	for (i = 1; i <= 10; i++)
+	{
+		for (j = 0; j <= 14; j++)
+		{
+			_putchar(i);
+			_putchar(j % 10 + '0');
+		}
+		_putchar('\n');
+	}
 }
