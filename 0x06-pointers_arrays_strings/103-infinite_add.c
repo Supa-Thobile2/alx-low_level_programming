@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-int main(void)
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int n;
 	int a[5];
