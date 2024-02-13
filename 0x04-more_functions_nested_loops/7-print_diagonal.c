@@ -7,9 +7,18 @@
  */
 int print_diagonal(void)
 {
-	print_diagonal(0);
-	print_diagonal(2);
-	print_diagonal(10);
-	print_diagonal(-4);
-	return (0);
+	int i, j;
+
+	if (n <= 0)
+		_putchar('\n');
+	for (i = 0; i < n; i++)
+	{
+		for (j = 0; j < 1; j++)
+		{
+			_putchar(' ');
+		}
+		_putchar('\\');
+		_putchar('\n');
+	}
+
 }
