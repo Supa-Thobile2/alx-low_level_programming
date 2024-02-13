@@ -29,7 +29,7 @@ void simple_print_buffer(int *buffer, unsigned int size)
 		i++;
 	}
 	printf("\n");
-}
+g
 
 /**
  * main - check the code
